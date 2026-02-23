@@ -1,0 +1,30 @@
+# Editor / caches
+.vscode/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+._*
+
+# Experiment outputs / checkpoints
+GLS_cosmo01/Output/
+GLS_cosmo01/Results/
+codes/Output/
+codes/Results/
+jax01/output*/
+jax01/output/
+
+# Large datasets and generated data
+GLS_cosmo01/Data/
+jax01/data/
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Archives often used for downloaded datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
