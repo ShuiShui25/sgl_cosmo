@@ -1,0 +1,12 @@
+# Python 3.11. CPU JAX; install the appropriate JAX accelerator wheel separately.
+numpy==2.4.2
+scipy==1.17.0
+astropy==7.2.0
+jax==0.9.0
+jaxlib==0.9.0
+numpyro==0.20.0
+pandas==3.0.1
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0
+tqdm==4.67.3
