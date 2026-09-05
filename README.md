@@ -129,3 +129,7 @@ python scripts/reconstruct_ann.py --help
 ## Validation of this release
 
 Dependencies were installed in a clean Python 3.11 CPU environment. Both cosmology models passed short sampling runs; continuation retained earlier samples. Fixed-state log densities match the original `sgl146` model. ANN input/output handling was exercised with a small synthetic catalog and a reduced CV grid. These checks establish installation and execution, not convergence of a new full 161-lens scientific run.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 only (`GPL-3.0-only`). See [LICENSE](LICENSE) for the full text.
